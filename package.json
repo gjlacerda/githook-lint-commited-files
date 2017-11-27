@@ -1,0 +1,27 @@
+{
+  "name": "githook-lint-commited-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "gulp js:lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjlacerda/githook-lint-commited-files.git"
+  },
+  "author": "Guilherme Lacerda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gjlacerda/githook-lint-commited-files/issues"
+  },
+  "homepage": "https://github.com/gjlacerda/githook-lint-commited-files#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0",
+    "husky": "^0.14.3",
+    "shelljs": "^0.7.8"
+  }
+}
